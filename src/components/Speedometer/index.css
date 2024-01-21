@@ -1,0 +1,85 @@
+/* Write your CSS here */
+* {
+  font-family: roboto;
+  color: #ffffff;
+}
+.bg-container {
+  background-color: #07080c;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  padding: 20px;
+}
+.image {
+  height: 150px;
+}
+
+.heading {
+  color: #ffffff;
+}
+.speed-inch {
+  font-size: 25px;
+  color: #ffffff;
+}
+.details {
+  font-size: 13px;
+}
+.Accelerate-button {
+  background-color: #0b69ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: none;
+  border-radius: 7px;
+  margin-right: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.break-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #94a3b8;
+  border-radius: 7px;
+  color: #94a3b8;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 60px;
+  }
+  .image {
+    height: 300px;
+  }
+  .speed-inch {
+    font-size: 50px;
+  }
+  .details {
+    font-size: 30px;
+  }
+  .Accelerate-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+  }
+  .break-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+  }
+}
